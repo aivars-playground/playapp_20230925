@@ -6,6 +6,7 @@ versionScheme := Some("semver-spec")
 scalaVersion := "3.3.1"
 
 libraryDependencies += guice
+libraryDependencies += "org.mongodb.scala" % "mongo-scala-driver_2.13" % "4.10.2"
 
 libraryDependencies += "org.scalatestplus.play" %% "scalatestplus-play" % "6.0.0-RC2" % Test
 
